@@ -6,3 +6,4 @@ Route::view('/', 'welcome');
 
 Route::view('/table', 'table');
 Route::view('/about', 'about');
+Route::view('/contact', 'contact');
