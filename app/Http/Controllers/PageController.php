@@ -6,14 +6,10 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function table()
+    public function student()
     {
-        $students = [
-            ["id"=>1,"name"=>"Rahul","course"=>"B.Tech"],
-            ["id"=>2,"name"=>"Prashant","course"=>"MVC"],
-            ["id"=>3,"name"=>"Aman","course"=>"BCA"]
-        ];
+        $students = [ ];
 
-        return view('table', compact('students'));
+        return view('student', compact('students'));
     }
 }
